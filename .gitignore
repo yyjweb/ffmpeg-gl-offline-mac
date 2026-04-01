@@ -1,0 +1,36 @@
+# Output files created by testing
+test/output/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.o
+*.a
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Package files
+*.tar.gz
+*.zip

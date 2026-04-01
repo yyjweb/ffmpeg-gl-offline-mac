@@ -7,11 +7,11 @@
 ![License](https://img.shields.io/badge/License-GPL%20v2%2B-orange)
 ![Transitions](https://img.shields.io/badge/Transitions-109-purple)
 
-**🇺🇸 English** | [🇨🇳 中文](README_CN.md)
+**🇺🇸 English** | [🇨🇳 中文](docs/README_CN.md) | [🇯🇵 日本語](docs/README_JA.md) | [🇰🇷 한국어](docs/README_KO.md) | [🇪🇸 Español](docs/README_ES.md) | [🇫🇷 Français](docs/README_FR.md) | [🇷🇺 Русский](docs/README_RU.md) | [🇧🇷 Português](docs/README_PT.md)
 
 **A statically-linked FFmpeg 8.1 binary with 109 GPU-accelerated GLSL video transitions for Apple Silicon (M1/M2/M3/M4/M5)**
 
-[Features](#-features) • [Quick Start](#-quick-start) • [Transitions](#-transitions) • [Usage](#-usage) • [Build](#-build-from-source)
+[Features](#-features) • [Quick Start](#-quick-start) • [Transitions](#-transitions) • [Usage](#-usage)
 
 </div>
 
@@ -116,7 +116,7 @@ Preview all transitions at [gl-transitions.com](https://gl-transitions.com/)
 - macOS 12.0 (Monterey) or later
 - Apple Silicon Mac (M1/M2/M3/M4/M5)
 
-**Note:** Intel Macs are not supported. For Intel Macs, you need to compile from source.
+**Note:** Intel Macs are not supported.
 
 ## 📦 Project Structure
 
@@ -130,39 +130,8 @@ ffmpeg-gl-offline-mac/
 │   ├── crosswarp.glsl
 │   └── ...
 ├── LICENSE
-├── README.md
-└── README_CN.md
+└── README.md
 ```
-
-## 🔧 Build from Source
-
-If you want to compile your own binary or customize the build:
-
-### Prerequisites
-
-```bash
-# Install Xcode Command Line Tools
-xcode-select --install
-
-# The build uses system frameworks only
-# No Homebrew dependencies required
-```
-
-### Build Steps
-
-```bash
-# Clone the build repository
-git clone https://github.com/yyjweb/ffmpeg-gl-build.git
-cd ffmpeg-gl-build
-
-# Run the build script
-./build-static.sh
-
-# The compiled binary will be in:
-# ffmpeg-gl-offline-mac/bin/ffmpeg
-```
-
-See [BUILD.md](BUILD.md) for detailed compilation instructions.
 
 ## 🐛 Troubleshooting
 
