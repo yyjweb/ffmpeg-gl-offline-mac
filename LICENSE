@@ -1,7 +1,6 @@
 MIT License
 
 Copyright (c) 2026 NeoX0
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -19,3 +18,38 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+### FFmpeg
+This project includes FFmpeg (https://ffmpeg.org/) compiled from source.
+FFmpeg is licensed under the GNU Lesser General Public License (LGPL) version 2.1
+or later, with portions licensed under the GNU General Public License (GPL) version 2
+or later.
+
+Due to the inclusion of libx264 (GPL), this binary is licensed under GPL v2+.
+
+Source code: https://ffmpeg.org/releases/
+
+### gl-transitions
+The transition shaders in the `transitions/` directory are from the gl-transitions library
+(https://github.com/gl-transitions/gl-transitions), licensed under the MIT License.
+
+Copyright (c) 2017 gl-transitions contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+### libx264
+This product includes software developed by x264 project.
+Licensed under the GNU General Public License version 2 or later.
+https://www.videolan.org/developers/x264.html
