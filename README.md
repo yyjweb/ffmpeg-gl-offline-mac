@@ -32,8 +32,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yyjweb/ffmpeg-gl-offline.git
-cd ffmpeg-gl-offline
+git clone https://github.com/yyjweb/ffmpeg-gl-offline-mac.git
+cd ffmpeg-gl-offline-mac
 
 # Verify the binary
 ./bin/ffmpeg -version
@@ -121,7 +121,7 @@ Preview all transitions at [gl-transitions.com](https://gl-transitions.com/)
 ## 📦 Project Structure
 
 ```
-ffmpeg-gl-offline/
+ffmpeg-gl-offline-mac/
 ├── bin/
 │   └── ffmpeg              # Static binary (~22MB)
 ├── transitions/            # 109 GLSL shaders (~440KB)
@@ -159,7 +159,7 @@ cd ffmpeg-gl-build
 ./build-static.sh
 
 # The compiled binary will be in:
-# ffmpeg-gl-offline/bin/ffmpeg
+# ffmpeg-gl-offline-mac/bin/ffmpeg
 ```
 
 See [BUILD.md](BUILD.md) for detailed compilation instructions.
@@ -225,9 +225,9 @@ See [LICENSE](LICENSE) for full details.
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yyjweb/ffmpeg-gl-offline?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yyjweb/ffmpeg-gl-offline?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yyjweb/ffmpeg-gl-offline)
+![GitHub stars](https://img.shields.io/github/stars/yyjweb/ffmpeg-gl-offline-mac?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yyjweb/ffmpeg-gl-offline-mac?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yyjweb/ffmpeg-gl-offline-mac)
 
 ---
 
