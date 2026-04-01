@@ -32,8 +32,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yyjweb/ffmpeg-gl-offline.git
-cd ffmpeg-gl-offline
+git clone https://github.com/yyjweb/ffmpeg-gl-offline-mac.git
+cd ffmpeg-gl-offline-mac
 
 # 验证二进制文件
 ./bin/ffmpeg -version
@@ -121,7 +121,7 @@ ls -1 transitions/*.glsl | sed 's/.*\///' | sed 's/\.glsl//'
 ## 📦 项目结构
 
 ```
-ffmpeg-gl-offline/
+ffmpeg-gl-offline-mac/
 ├── bin/
 │   └── ffmpeg              # 静态二进制文件 (~22MB)
 ├── transitions/            # 109 个 GLSL 着色器 (~440KB)
@@ -159,7 +159,7 @@ cd ffmpeg-gl-build
 ./build-static.sh
 
 # 编译后的二进制文件位于：
-# ffmpeg-gl-offline/bin/ffmpeg
+# ffmpeg-gl-offline-mac/bin/ffmpeg
 ```
 
 详细编译说明请参阅 [BUILD.md](BUILD.md)。
@@ -225,9 +225,9 @@ gltransition=source=/完整路径/transitions/cube.glsl
 
 ## 📊 项目统计
 
-![GitHub stars](https://img.shields.io/github/stars/yyjweb/ffmpeg-gl-offline?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yyjweb/ffmpeg-gl-offline?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yyjweb/ffmpeg-gl-offline)
+![GitHub stars](https://img.shields.io/github/stars/yyjweb/ffmpeg-gl-offline-mac?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yyjweb/ffmpeg-gl-offline-mac?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yyjweb/ffmpeg-gl-offline-mac)
 
 ---
 
